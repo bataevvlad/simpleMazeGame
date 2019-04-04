@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZFg-sI-daR">
+                                <rect key="frame" x="454" y="205" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zzz-6i-ogV">
+                                <rect key="frame" x="190" y="38" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="bLR-wh-ELX">
+                                <rect key="frame" x="60" y="-3" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="EOy-AZ-gLe">
+                                <rect key="frame" x="14" y="279" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="15l-YL-LXg">
+                                <rect key="frame" x="582" y="1" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="ncp-m8-stq">
+                                <rect key="frame" x="549" y="279" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="OVv-l0-sid">
+                                <rect key="frame" x="126" y="42" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="squareWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="C5W-ZD-59v">
+                                <rect key="frame" x="244" y="194" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="pacman.png" translatesAutoresizingMaskIntoConstraints="NO" id="oEH-8R-Z3s">
+                                <rect key="frame" x="20" y="162" width="67" height="73"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="ghost.png" translatesAutoresizingMaskIntoConstraints="NO" id="4eE-AZ-3Af">
+                                <rect key="frame" x="348" y="-3" width="59" height="58"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="ghost.png" translatesAutoresizingMaskIntoConstraints="NO" id="64G-fm-RKq">
+                                <rect key="frame" x="144" y="319" width="59" height="58"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="ghost.png" translatesAutoresizingMaskIntoConstraints="NO" id="G41-BY-nkh">
+                                <rect key="frame" x="409" y="319" width="59" height="58"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" image="exit.png" translatesAutoresizingMaskIntoConstraints="NO" id="ey7-bc-JcS">
+                                <rect key="frame" x="596" y="162" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="exit" destination="ey7-bc-JcS" id="esG-e9-i8x"/>
+                        <outlet property="ghost1" destination="G41-BY-nkh" id="QGI-jx-IEY"/>
+                        <outlet property="ghost2" destination="64G-fm-RKq" id="eft-ch-gTq"/>
+                        <outlet property="ghost3" destination="4eE-AZ-3Af" id="gtz-k0-qDA"/>
+                        <outlet property="pacman" destination="oEH-8R-Z3s" id="0dW-VR-d5r"/>
+                        <outletCollection property="wall" destination="C5W-ZD-59v" id="EWn-gX-gVt"/>
+                        <outletCollection property="wall" destination="OVv-l0-sid" id="MMm-xF-uxc"/>
+                        <outletCollection property="wall" destination="ncp-m8-stq" id="AMf-hC-6MY"/>
+                        <outletCollection property="wall" destination="15l-YL-LXg" id="gve-0N-qBs"/>
+                        <outletCollection property="wall" destination="EOy-AZ-gLe" id="hBL-n2-7hE"/>
+                        <outletCollection property="wall" destination="bLR-wh-ELX" id="tXL-vp-i6v"/>
+                        <outletCollection property="wall" destination="Zzz-6i-ogV" id="lAI-YD-EcF"/>
+                        <outletCollection property="wall" destination="ZFg-sI-daR" id="nSo-Ad-oOP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.7376311844078" y="13.6"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="exit.png" width="33" height="33"/>
+        <image name="ghost.png" width="64" height="64"/>
+        <image name="pacman.png" width="64" height="64"/>
+        <image name="squareWall.png" width="64" height="64"/>
+    </resources>
+</document>
